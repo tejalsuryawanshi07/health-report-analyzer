@@ -6,7 +6,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/api/reports")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://health-report-analyzer-azure.vercel.app")
 public class ReportController {
 
     @Autowired
